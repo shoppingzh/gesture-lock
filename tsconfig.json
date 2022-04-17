@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "declarationDir": "types",
+    "declaration": true,
+    "lib": ["ES2015", "ES6", "ES2016", "DOM"]
+  }
+}

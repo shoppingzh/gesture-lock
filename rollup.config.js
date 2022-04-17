@@ -4,9 +4,12 @@ export default {
   input: 'src/index.ts',
   output: {
     file: 'index.js',
-    format: 'umd',
+    format: 'esm',
     name: 'GestureLock'
   },
+  external: [
+    /^lodash/
+  ],
   plugins: [
     ts()
   ]
